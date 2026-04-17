@@ -1,6 +1,6 @@
-# EPC Scraping Platform
+# EPC Scraping Pipeline
 
-Data scraping platform for EPC certificates.
+Data scraping pipeline for EPC certificates.
 
 ## Overview
 
