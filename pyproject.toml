@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epc-scraping-pipeline"
+version = "0.1.0"
+description = "Starter pipeline for collecting and normalizing EPC certificate data."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "John Cosnett" }
+]
+dependencies = []
+
+[project.scripts]
+epc-pipeline = "epc_scraping_pipeline.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
